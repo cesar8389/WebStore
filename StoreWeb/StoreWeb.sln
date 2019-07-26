@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreWeb", "StoreWeb.csproj", "{73468513-B894-4DA8-8E0D-3CEF35E625B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreWeb.Domain", "..\StoreWeb.Domain\StoreWeb.Domain.csproj", "{7D320117-4F50-4BDB-A827-635B9609FA83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73468513-B894-4DA8-8E0D-3CEF35E625B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73468513-B894-4DA8-8E0D-3CEF35E625B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73468513-B894-4DA8-8E0D-3CEF35E625B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73468513-B894-4DA8-8E0D-3CEF35E625B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D320117-4F50-4BDB-A827-635B9609FA83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D320117-4F50-4BDB-A827-635B9609FA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D320117-4F50-4BDB-A827-635B9609FA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D320117-4F50-4BDB-A827-635B9609FA83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00F3E808-DD2B-4183-BAD6-7BFB1B4C8118}
+	EndGlobalSection
+EndGlobal
