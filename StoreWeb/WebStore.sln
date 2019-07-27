@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStore", "WebStore.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStore.Domain", "..\StoreWeb.Domain\WebStore.Domain.csproj", "{7D320117-4F50-4BDB-A827-635B9609FA83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.Service", "..\WebStore.Service\WebStore.Service.csproj", "{9477EEF6-96D2-44E9-A0D0-8876128AACBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStore.Service", "..\WebStore.Service\WebStore.Service.csproj", "{9477EEF6-96D2-44E9-A0D0-8876128AACBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStory.Repository", "..\WebStory.Repository\WebStory.Repository.csproj", "{FD6E32AD-D4E3-4FF5-8448-B2D1AF0F993B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStory.Repository", "..\WebStory.Repository\WebStory.Repository.csproj", "{FD6E32AD-D4E3-4FF5-8448-B2D1AF0F993B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.Business", "..\WebStore.Business\WebStore.Business.csproj", "{1B248BEA-9875-4A5B-8F37-77B91920842D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStore.Business", "..\WebStore.Business\WebStore.Business.csproj", "{1B248BEA-9875-4A5B-8F37-77B91920842D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.Aplication", "..\WebStore.Aplication\WebStore.Aplication.csproj", "{7CA922E2-B7FD-4D21-9238-8CD08E91B12B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStore.Aplication", "..\WebStore.Aplication\WebStore.Aplication.csproj", "{7CA922E2-B7FD-4D21-9238-8CD08E91B12B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "..\XUnitTestProject1\XUnitTestProject1.csproj", "{7AE28566-838D-4410-BFE5-E14F74CB6898}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7CA922E2-B7FD-4D21-9238-8CD08E91B12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CA922E2-B7FD-4D21-9238-8CD08E91B12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CA922E2-B7FD-4D21-9238-8CD08E91B12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE28566-838D-4410-BFE5-E14F74CB6898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE28566-838D-4410-BFE5-E14F74CB6898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE28566-838D-4410-BFE5-E14F74CB6898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE28566-838D-4410-BFE5-E14F74CB6898}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

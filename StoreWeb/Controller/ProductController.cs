@@ -16,7 +16,7 @@ namespace WebStore.Controller
         {
             private readonly IProductService _productServices;
             private readonly ILogger<ProductController> _logger;
-            public ProductController(ProductService productServices, ILogger<ProductController> logger)
+            public ProductController(IProductService productServices, ILogger<ProductController> logger)
             {
                 _productServices = productServices;
                 _logger = logger;
@@ -35,6 +35,12 @@ namespace WebStore.Controller
                 _logger.LogError(exception, exception.Message);
                 return new StatusCodeResult(500);
             }
+        }
+        [HttpPost]
+        public ActionResult<string> Post([FromBody] Product product)
+        {
+            _productServices.Insert(product);
+            return Ok("success");
         }
     }
     }

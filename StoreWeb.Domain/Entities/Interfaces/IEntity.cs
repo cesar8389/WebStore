@@ -7,6 +7,6 @@ namespace StoreWeb.Domain.Entities.Interfaces
     public interface IEntity
     {
         Guid Key { get; }
-        int Id { get; set; }
+        int Id { get;}
     }
 }

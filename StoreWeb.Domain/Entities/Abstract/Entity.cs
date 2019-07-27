@@ -7,8 +7,8 @@ namespace StoreWeb.Domain.Entities.Abstract
 {
     public abstract class Entity : IEntity
     {
-        public Guid Key { get; }
-        public int Id { get; set; }
+        public Guid Key { get;}
+        public int Id { get;}
 
         protected Entity()
         {
